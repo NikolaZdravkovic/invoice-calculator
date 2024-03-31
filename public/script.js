@@ -1,6 +1,6 @@
 "use strict";
 // Fetch the JSON data from the 'api/invoice.json' route
-fetch('../api/invoice.json')
+fetch('https://nikolazdravkovic.github.io/invoice-calculator/api/invoice.json')
     .then(response => response.json())
     .then((data) => {
     // Get the tbody element where we'll append the table rows

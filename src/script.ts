@@ -8,7 +8,7 @@ interface InvoiceItem {
 }
 
 // Fetch the JSON data from the 'api/invoice.json' route
-fetch('../api/invoice.json')
+fetch('https://nikolazdravkovic.github.io/invoice-calculator/api/invoice.json')
     .then(response => response.json())
     .then((data: InvoiceItem[]) => {
         // Get the tbody element where we'll append the table rows

@@ -1,0 +1,103 @@
+/*# sourceMappingURL=style.css.map */
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    -webkit-font-smoothing: antialiased;
+    background: gainsboro;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    padding: 30px 0;
+}
+
+.wrapper {
+    background: white;
+    max-width: 1440px;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Table Styles */
+
+.table-wrapper {
+    background: white;
+    padding: 30px;
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+    max-width: 1440px;
+    margin: auto;
+}
+
+.table td {
+    max-width: 200px;
+    word-wrap: break-word;
+}
+thead tr {
+    vertical-align: top;
+}
+
+thead th {
+    padding: 25px 0px 25px 10px !important;
+}
+.table-responsive {
+    border: 1px solid #ccc;
+}
+.wrapper-total {
+    position: relative;
+    right: 14px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+/* .disconut-field {
+    min-width: 200px;
+} */
+
+.total {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: end;
+    padding-right: 20px;
+}
+
+.original-price , .discount-price {
+    text-align: end;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.unit-price, .price {
+    min-width: 70px;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+
+    .table-responsive {
+        overflow-x: auto;
+        padding-bottom: 145px;
+    }
+    .discount-field{
+        min-width: 200px;
+    }
+    .item-name{
+    min-width: 200px
+    }
+    .wrapper-total{
+        position: absolute;
+    }
+    .table-responsive::-webkit-scrollbar {
+        display: none;
+      }
+}

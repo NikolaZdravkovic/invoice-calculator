@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "invoice_item": "1 IFREuNDE CLUB Premium-Abo Performance date 19/03/24 18/04/24 ",
+        "unit_price": 12,
+        "quantity": 2,
+        "price": 12
+    },
+    {
+        "id": 2,
+        "invoice_item": "Inklusive 1 1 FREUNDE CHRONIK Print•Ausgabe performance date 19/03/24 - 18/04/24 ",
+        "unit_price": 234,
+        "quantity": 5,
+        "price": 234
+    },
+    {
+        "id": 3,
+        "invoice_item": "1 IFREUNDE CLUB performance date 19/03/24 18/04/24 ",
+        "unit_price": 344,
+        "quantity": 1,
+        "price": 344
+    },
+    {
+        "id": 4,
+        "invoice_item": " Inklusive 1 1 FREUNDE SPEZIAL Print-Ausgabe performance date 19/03/24-18/04/2",
+        "unit_price": 415,
+        "quantity": 1,
+        "price": 415
+    },
+    {
+        "id": 5,
+        "invoice_item": "Inklusive der digltdlen 1 1 FREUNDE Ausgaben performance date 19/03/24 -18/04/24  ",
+        "unit_price": 142,
+        "quantity": 1,
+        "price": 142
+    }
+]
